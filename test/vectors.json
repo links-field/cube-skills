@@ -1,0 +1,69 @@
+{
+ "privateKey": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKMZp8fPbTTYPpUEo+NbBIHezjc0o9NyD2O5u2wOQo2D25qIvr345L8f6xtA8kby9IXt3E7AMnciHkoayTbhDS2bXJtKq7a811ZefpvErB9owYezDo6EJx6Dr9SFd8pdl1zVkbA8jrmlTMFhOuCQEXprhIXEQ7RnqYEhTu+Ln/AHAgMBAAECgYAel+Bd3W2pnOpYP2+SZO86gRWDS29zaRCz7xHV2fLn4pTdrsrAjaAyrYUHLq6DWm09dfl+GBUfPZoa4l1d2ucCmzwWdSOsY8+HsTF4L+BO3Ewa62A7zCS8Q6bMHSe3QWAC6bKTSfE01N0xEzf+d3KQEikSGHvE0RMcI0gL69kn6QJBANgGEbcjvAQA8MVichyoowkyMdmp7WM+6Ln2KDml/HuK4LjDGfI0AhvLhk5R+2+7SLSXpEZHqx3Cq806Ke8awFUCQQDBSGIGcKT/L3738WwUlYk6/f5/7SH8I91mM7YrC3WwFZmgnkC7LFLo8dUAr8IW9wOH4Qax0ga7AMbTgS6SJdrrAkEAqRXvDdtBkhyuWMFaskXo/wyz6jxQnCskfFJJX/4lJwooJVZI28SLlffzEyCmXulH2lsLcRstu+ihEs0g/49/1QJBAJtt99Yx8516tmHw9PdAoVCdPHHnYfL/bGVppE7NMmDdneM6H9fk9u94uc+Jh00satx0KwwIV30+TKV9NtQ0OO0CQBg7CcZZWW+mPMy4QnAEBFxso97q4hyzLhz4WnJ4CCkkqPyvl0PB8McXbIBs0UDVpijXnGDQlBo/qUdzKM+cCFY=",
+ "cases": [
+  {
+   "name": "GET plans with query",
+   "method": "GET",
+   "url": "https://api-uat.io.linksfield.net/cube/v4/sims/89852202306250040073/bundles?status=0,1,2&page_no=1&page_size=100",
+   "nonce": 12,
+   "timestamp": 1674197059220,
+   "message": "{\"nonce\":\"12\",\"page_no\":\"1\",\"page_size\":\"100\",\"status\":\"0,1,2\",\"timestamp\":\"1674197059220\",\"x-sign-uri\":\"/cube/v4/sims/89852202306250040073/bundles\"}",
+   "signature": "BNqEMaFhnGsY+G/WR+YRdNU6t52013C0aDLThNpBgUZf8UiB+8XVwtSO1xTp+kRN11YPRmXthvjsk3e4o+i7KU7Ru46jl8P3WZR/Yq8CJx5iQE6hK4H8/k+jyd0+qt5TzYn3DYmbsOH4DT/RAJUUcSllQ8bOZcGATboXdQtmyj0="
+  },
+  {
+   "name": "GET usage (docs example)",
+   "method": "GET",
+   "url": "https://api.linksfield.net/cube/v4/sims/89852002021102915651/usage?begin_from=2023-01&category=data&end_by=2023-01&period_type=2",
+   "nonce": 1,
+   "timestamp": 1674197059220,
+   "message": "{\"begin_from\":\"2023-01\",\"category\":\"data\",\"end_by\":\"2023-01\",\"nonce\":\"1\",\"period_type\":\"2\",\"timestamp\":\"1674197059220\",\"x-sign-uri\":\"/cube/v4/sims/89852002021102915651/usage\"}",
+   "signature": "AcbPfV4XivV5fPugsx39zVDkGFxrJIqcwkRPHHagEUc1h7H9Dp7Yjd6h9e2olkOgoullGFATmIs9xpj8hQh2OrdcXhgXOsm/YxW0Pl/UNWTPzNu27Zj4wM+dn91desObgMqgpGBCVnSrAEzMdHo+5vIxSx/uCm/9vIkFx/q8EWA="
+  },
+  {
+   "name": "GET empty query value skipped",
+   "method": "GET",
+   "url": "https://api-uat.io.linksfield.net/cube/v4/sims?iccid=&page_no=2",
+   "nonce": 12,
+   "timestamp": 1674197059220,
+   "message": "{\"nonce\":\"12\",\"page_no\":\"2\",\"timestamp\":\"1674197059220\",\"x-sign-uri\":\"/cube/v4/sims\"}",
+   "signature": "jmjeTaQVrrCv4QC5008FLPGC2X8b5mH0Sj3tWy5R3l1d4ggjhSlffrzCpAKQta1ZMYhhTrnBqvazTaLYOhEkjUl2tCD284kZlFJ3CaA3MczB/5LR3QlITXr9uTuPE0WTW8lwCH6vAJx8/x3AM4Swaw7MToZwNHbzRq3JpfBToj4="
+  },
+  {
+   "name": "POST bundle (docs example)",
+   "method": "POST",
+   "url": "https://api.linksfield.net/cube/v4/sims/89000100010003125832/bundle",
+   "nonce": 1,
+   "body": {
+    "bundle_id": "LP09823222320",
+    "bundle_type": 10,
+    "cycles": 3
+   },
+   "timestamp": 1674197059220,
+   "message": "{\"bundle_id\":\"LP09823222320\",\"bundle_type\":10,\"cycles\":3,\"nonce\":\"1\",\"timestamp\":\"1674197059220\",\"x-sign-uri\":\"/cube/v4/sims/89000100010003125832/bundle\"}",
+   "signature": "lIzruIzqAatstiq+x8ms5TPv6X3Z2cQW4JAELmHuDoZU2AQCf/Hq7sMv21XNWKL3SA444k7smRQK6NiGTY4lohLMk7ABYOE5qts0anZBqlY1+1nO6U2Dqbr+mfOXMjPUddHIXLzflZDjZlexmY0t/Vpje/u1G4x6rDoZIFYNPMo="
+  },
+  {
+   "name": "POST nested object, array, unicode, boolean",
+   "method": "POST",
+   "url": "https://api-uat.io.linksfield.net/cube/v4/sms",
+   "body": {
+    "message": {
+     "type": 1,
+     "content": "你好 Cube",
+     "a": true
+    },
+    "sim_ids": [
+     "3",
+     "1",
+     "2"
+    ],
+    "tag": "",
+    "on": false
+   },
+   "nonce": 12,
+   "timestamp": 1674197059220,
+   "message": "{\"message\":{\"a\":true,\"content\":\"你好 Cube\",\"type\":1},\"nonce\":\"12\",\"on\":false,\"sim_ids\":[\"3\",\"1\",\"2\"],\"tag\":\"\",\"timestamp\":\"1674197059220\",\"x-sign-uri\":\"/cube/v4/sms\"}",
+   "signature": "ZsyNhtm2ZFG6myR6FZa+a7+Sqf+KKrXt3OevxMkGIwOGuxgovIuAwxaUYCByRiXPeQ45Td6OtKA8ykZKlaNqhy/alYEK95BcIN5XzpYRZ3u0koIZlgXjIhZcOKyhF8lIKv+u25raSKWT3TQoOB1jT1U1F7ZUETiAZms+yld/ti4="
+  }
+ ]
+}

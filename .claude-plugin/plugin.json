@@ -1,0 +1,9 @@
+{
+  "name": "cube",
+  "description": "Linksfield Cube skills: integrate with the Cube API (keys, docs, Signature v2, signing scripts).",
+  "version": "0.1.0",
+  "author": { "name": "Linksfield" },
+  "homepage": "https://github.com/links-field/cube-skills",
+  "keywords": ["linksfield", "cube", "iot", "sim", "esim", "api"],
+  "skills": ["./skills/cube-api"]
+}

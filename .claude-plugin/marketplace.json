@@ -1,0 +1,8 @@
+{
+  "name": "linksfield",
+  "owner": { "name": "Linksfield" },
+  "metadata": { "description": "Linksfield Cube skills", "version": "0.1.0" },
+  "plugins": [
+    { "name": "cube", "source": "./", "description": "Integrate with the Linksfield Cube API.", "version": "0.1.0", "author": { "name": "Linksfield" }, "keywords": ["cube", "iot", "api"] }
+  ]
+}
