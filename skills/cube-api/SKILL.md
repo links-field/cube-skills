@@ -1,6 +1,6 @@
 ---
 name: cube-api
-description: Integrate with the Linksfield Cube API (Cube API Enterprise, api.linksfield.net/cube/v4) — get an API key, find the right endpoint in the official docs, sign requests with Signature v2 (SHA1withRSA, "Authorization: LF {keyId}/{sign}"), call it, and debug 401/403/429 errors. Ships tested signing scripts for Node and Python. Use whenever the user mentions Cube, Linksfield, iotcube, managing IoT SIM cards / eSIMs / plans / bundles / usage / SMS / CDRs through an API, a Cube key ID or private key, "LF" authorization, X-LF-Signature-Type, or a Cube signature that fails — even if they do not say "Cube API" explicitly.
+description: 'Integrate with the Linksfield Cube API (Cube API Enterprise, api.linksfield.net/cube/v4) — get an API key, find the right endpoint in the official docs, sign requests with Signature v2 (SHA1withRSA, "Authorization: LF {keyId}/{sign}"), call it, and debug 401/403/429 errors. Ships tested signing scripts for Node and Python. Use whenever the user mentions Cube, Linksfield, iotcube, managing IoT SIM cards / eSIMs / plans / bundles / usage / SMS / CDRs through an API, a Cube key ID or private key, "LF" authorization, X-LF-Signature-Type, or a Cube signature that fails — even if they do not say "Cube API" explicitly.'
 ---
 
 # Cube API
