@@ -6,7 +6,7 @@ Source: https://apidoc-en.iotcube.link (Overview, Signature v2, Error Code, Test
 
 | | Base URL | Console |
 |---|---|---|
-| Production | `https://api.linksfield.net/cube/v4` | https://www.iotcube.link |
+| Production | `https://api.linksfield.net/cube/v4` | https://www.iotcube.link (stable) · https://new.iotcube.link (new console, trial rollout) |
 | UAT | `https://api-uat.io.linksfield.net/cube/v4` | provided by Linksfield for testing |
 
 Keys are per environment: a UAT key does not work on production.

@@ -17,7 +17,12 @@ The API is for enterprise customers. The person creating keys must be an **Admin
 
 ### 2. Create an API key
 
-In the Cube console (https://www.iotcube.link, sign in): **Developer → API Keys** → type a name (e.g. "Production integration") → **Create**.
+In the Cube console, sign in and open **Developer → API Keys** → type a name (e.g. "Production integration") → **Create**.
+
+Two production consoles run side by side; both hold the same organisation and keys:
+
+- **https://www.iotcube.link** — the stable console. Point users here by default.
+- **https://new.iotcube.link** — the new console, in trial rollout. Some customers already use it; the menu path is the same, the layout differs.
 
 - The new row shows a **Key ID**; the **private key** is available from the row's actions (show / copy). The pair is an RSA key — the private key is the credential.
 - An organisation can hold several keys (the page shows "n of 5 keys used").
